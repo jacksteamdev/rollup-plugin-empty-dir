@@ -2,7 +2,7 @@
   "name": "rollup-plugin-empty-dir",
   "version": "0.1.0",
   "description": "Automatically empty output.dir before writing a new bundle.",
-  "repository": "rollup-plugin-empty-dir",
+  "repository": "bumble-org/rollup-plugin-empty-dir",
   "license": "MIT",
   "author": "Jack and Amy Steam <jacksteamdev@gmail.com>",
   "files": [
