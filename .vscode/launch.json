@@ -1,0 +1,88 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "name": "jest-tests",
+      "request": "launch",
+      "args": ["--runInBand"],
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+    },
+    {
+      "type": "node",
+      "name": "test-selectors",
+      "request": "launch",
+      "args": ["selectors", "--runInBand"],
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+    },
+    {
+      "type": "node",
+      "name": "test-manifest",
+      "request": "launch",
+      "args": ["manifest", "--runInBand"],
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+    },
+    {
+      "type": "node",
+      "name": "test-clip-selector",
+      "request": "launch",
+      "args": ["clip-selector", "--runInBand"],
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+    },
+    {
+      "type": "node",
+      "name": "test-html",
+      "request": "launch",
+      "args": ["html.rollup", "--runInBand"],
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+    },
+    {
+      "type": "node",
+      "name": "test-async-iife",
+      "request": "launch",
+      "args": ["async-iife", "--runInBand"],
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+    },
+    {
+      "type": "node",
+      "name": "test-complete",
+      "request": "launch",
+      "args": ["complete", "--runInBand"],
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+    },
+    {
+      "type": "node",
+      "name": "test-validation",
+      "request": "launch",
+      "args": ["validation", "--runInBand"],
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+    }
+  ]
+}
