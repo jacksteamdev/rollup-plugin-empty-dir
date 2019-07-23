@@ -2,7 +2,7 @@ import { emptyDir } from 'fs-extra'
 
 export default function emptyOutputDir() {
   return {
-    name: 'empty-output-dir',
+    name: 'empty-dir',
     async generateBundle({ dir }) {
       await emptyDir(dir)
     },
