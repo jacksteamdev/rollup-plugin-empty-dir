@@ -15,8 +15,6 @@ export default [
         sourcemap: 'inline',
       },
     ],
-    external: [
-      'fs-extra',
-    ],
+    external: ['fs-extra'],
   },
 ]
