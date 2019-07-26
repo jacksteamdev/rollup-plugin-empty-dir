@@ -1,10 +1,9 @@
 /// <reference types="rollup" />
 
-import { RollupOptions, OutputOptions, Plugin } from 'rollup'
 
 interface EmptyDirPlugin {
   name: string
-  generateBundle(options: OutputOptions): Promise<any>
+  generateBundle(options: any): Promise<void>
 }
 
-export function emptyDir(): Plugin
+export function emptyDir(): EmptyDirPlugin
