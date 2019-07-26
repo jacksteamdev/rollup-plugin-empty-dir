@@ -1,6 +1,6 @@
 /* eslint-env node */
 
-import emptyDir from '../../src/index'
+import { emptyDir } from '../../src/index'
 import { join } from 'path'
 
 const fixture = (name) => join('tests/basic', name)
