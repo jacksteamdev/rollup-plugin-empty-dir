@@ -9,8 +9,8 @@
     "lib",
     "index.d.ts"
   ],
-  "main": "build/bundle-cjs.js",
-  "module": "build/bundle-esm.js",
+  "main": "lib/empty-dir-cjs.js",
+  "module": "lib/empty-dir-esm.js",
   "types": "index.d.ts",
   "scripts": {
     "build": "rollup -c",
