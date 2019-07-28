@@ -5,12 +5,12 @@ export default [
     input: 'src/index.js',
     output: [
       {
-        file: 'build/bundle-esm.js',
+        file: 'lib/empty-dir-esm.js',
         format: 'esm',
         sourcemap: 'inline',
       },
       {
-        file: 'build/bundle-cjs.js',
+        file: 'lib/empty-dir-cjs.js',
         format: 'cjs',
         sourcemap: 'inline',
       },
