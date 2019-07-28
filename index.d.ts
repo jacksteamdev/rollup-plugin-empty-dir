@@ -1,6 +1,3 @@
-/// <reference types="rollup" />
-
-
 interface EmptyDirPlugin {
   name: string
   generateBundle(options: any): Promise<void>
