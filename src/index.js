@@ -4,7 +4,9 @@ export function emptyDir() {
   return {
     name: 'empty-dir',
     async generateBundle({ dir }) {
-      await fsEmptyDir(dir)
+      if (dir) {
+        await fsEmptyDir(dir)
+      }
     },
   }
 }
